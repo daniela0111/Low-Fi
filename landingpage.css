@@ -1,0 +1,20 @@
+:root{ 
+    --orange: #FF5804;
+    --purple: #513DBF;
+    --pink: #F2B3D1;
+    --green: #73BF8E;
+    --yellow: #F2B705;
+    --beige: #FFFEF4;
+    --brown: #2B1E09;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*mobile version*/
+body{
+    background-color: var(--beige);
+
+}
