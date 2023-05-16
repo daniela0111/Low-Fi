@@ -1,4 +1,4 @@
-:root{ 
+:root { 
     --orange: #FF5804;
     --purple: #513DBF;
     --pink: #F2B3D1;
@@ -11,10 +11,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*mobile version*/
-body{
+body {
     background-color: var(--beige);
+    font-family: "roboto-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--brown);
+}
 
+h1 {
+    font-family: "stratos", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#background {
+    z-index: -2;
 }
