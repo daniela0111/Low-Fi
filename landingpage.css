@@ -24,18 +24,18 @@ body {
     color: var(--brown);
 }
 
+/*date on the left site*/
+
 #date {
     text-orientation: mixed;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    top: 5px;
+    top: 20px;
     left: 4px;
     z-index: 10;
     position: fixed;
 }
-.mainlogo {
-    text-align: center;
-}
+
 h1 {
     font-family: "stratos", sans-serif;
     font-weight: 500;
@@ -46,9 +46,142 @@ h1 {
     
 }
 
+#lowfi {
+    max-width: 40%;
+    position: absolute;
+    top: 20px;
+}
+
+/*color shapes in background*/
+
 #background {
     z-index: -2;
     position: relative;
     left: 0px;
     top: 0px;
 }
+
+.mainlogo {
+    display: grid; 
+    place-items: center;
+}
+
+/*burger navigation*/
+
+.burger-toggle {
+    display: none;
+  }
+  
+.burger-icon {
+    display: inline-block;
+    top: 20px;
+    left: 90%;
+    z-index: 10;
+    position: fixed;
+    cursor: pointer;
+  }
+  
+.line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--brown);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+#burger-toggle:checked ~ .burger-icon .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+#burger-toggle:checked ~ .burger-icon .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+#burger-toggle:checked ~ .burger-icon .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+.menu {
+    display: none;
+  }
+  
+#burger-toggle:checked ~ .menu {
+    display: block;
+  }
+  
+a {
+    font-family: "roboto-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--brown);
+}
+
+ul {
+    top: 50px;
+    left: 82%;
+    z-index: 10;
+    position: fixed;
+    list-style: none;
+}
+
+/*1st paragraph*/
+
+.intro {
+    top: 200px;
+    display: grid; 
+    place-items: center;
+}
+
+.intro p {
+    text-align: left;
+    margin-left: 210px;
+    padding-right: 50px;
+    z-index: 12;
+    position: absolute;
+    top: 140px;
+}
+
+
+h2 {
+    font-family: "stratos", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 22px;
+    color: var var(--brown);
+}
+
+/*pink background circle*/
+
+#pink {
+    width: 50%;
+    z-index: 10;
+    position: relative;
+    bottom: 380px;
+    left: 70px;
+
+}
+
+#countdown {
+    position: relative;
+    margin-top: 12%;
+    margin-left: 20%;
+    margin-right: 32%;
+    bottom: 570px;
+    font-size: 20px;
+    z-index: 12;
+    text-align: center;
+  }
+
+#countdown p {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 50%;
+    left: 50px;
+    bottom: 570px;
+    font-size: 24px;
+    z-index: 12;
+  }

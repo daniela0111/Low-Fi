@@ -5,19 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="landingpage.css"/>
+    <script src="landingpage.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/uqj5fqo.css">
     <title>Low-Fi festival</title>
   </head>
   <body>
     <header>
-      <!--navigation for mobile-->
       <img id="background" src="Shapes_mobile_version.png" alt="background motive">
+      <p id="date">25th-29th August 2023</p>
       <section class="mainlogo">
-        <p id="date">25th-29th August 2023</p>
-        <img src="logo.png" alt="Low-Fi logo">
+        <img id="lowfi" src="logo.png" alt="Low-Fi logo">
         <h1>FESTIVAL</h1>
       </section>
+      <section class="intro">
+        <p>There is no Low-Fi without you. Every Low-Fi concert is co-created by an artist and a host.</p>
+      </section>
     </header>
-    <nav>
-
+    <!--navigation for mobile-->
+    <input type="checkbox" id="burger-toggle" class="burger-toggle">
+    <label for="burger-toggle" class="burger-icon">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </label>
+    <nav class="menu">
+      <ul>
+        <li><a href="#line_up">line up</a></li>
+        <li><a href="#tickets">tickets</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
     </nav>
+    <!--countdown-->
+    <img id="pink" src="circle_pink.png" alt="pink background circle">
+    <section id="countdown">
+    </section>
+    <!--all titles on page have to be in this style, otherwise I will not scroll to them through navigation-->
+    <main>
+      <h2 id="line_up">line up</h2>
+      <h2 id="tickets">tickets</h2>
+      <h2 id="contact">contact</h2>
+    </main>
