@@ -185,3 +185,51 @@ h2 {
     font-size: 24px;
     z-index: 12;
   }
+
+  
+
+   #bluerectangle {
+    float: right;
+    margin-top: -60%;
+    
+  }
+  #orangephoto {
+    max-width: 291px;
+    z-index: 12;
+    margin-top: -180%;
+    float: right;
+  }
+
+  .lineup_background {
+  width: 227px;
+  height: 252px;
+  background: var(--beige);
+  z-index: 12;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -100%;
+}
+
+#line_up {
+margin-left: 35%;
+z-index: 20;
+}
+
+.lineupbutton {
+  margin-left: 40%;
+  width: 149px;
+  height: 48px;
+  font-family: "stratos", sans-serif;
+  font-size: 22px;
+  background-color: var(--beige);
+  z-index: 12;
+}
+
+.lineup_text {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+ 
