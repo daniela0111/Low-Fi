@@ -186,11 +186,13 @@ h2 {
     z-index: 12;
   }
 
-  
+ 
+/*line up section*/  
 
    #bluerectangle {
     float: right;
     margin-top: -60%;
+    margin-bottom: 5%;
     
   }
   #orangephoto {
@@ -207,7 +209,7 @@ h2 {
   z-index: 12;
   position: absolute;
   margin-left: 30%;
-  margin-top: -100%;
+  margin-top: -15%;
 }
 
 #line_up {
@@ -216,13 +218,20 @@ z-index: 20;
 }
 
 .lineupbutton {
-  margin-left: 40%;
+  margin-left: 18%;
+  margin-top: 15%;
   width: 149px;
   height: 48px;
   font-family: "stratos", sans-serif;
   font-size: 22px;
   background-color: var(--beige);
   z-index: 12;
+  border: none;
+}
+
+.lineupbutton:active {
+  font-size: 24px;
+  background-color: var(--pink);
 }
 
 .lineup_text {
@@ -231,5 +240,17 @@ z-index: 20;
   text-align: center;
 }
 
+/*about section*/
 
- 
+.abouttext {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 63px;
+  padding-right: 100px;
+  display: grid;
+  font-size: 14px;
+}
+
+#about {
+  margin-left: 63px;
+} 
