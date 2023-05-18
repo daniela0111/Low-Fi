@@ -254,3 +254,19 @@ z-index: 20;
 #about {
   margin-left: 63px;
 } 
+
+.videosection {
+  display: flex ;
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.video {
+  flex: 1;
+  margin-right: -50%;
+}
+
+#videoid {
+  z-index: 12;
+}
