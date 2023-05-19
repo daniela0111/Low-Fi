@@ -15,6 +15,7 @@
 }
 
 /*mobile version*/
+
 body {
     background-color: var(--beige);
     font-family: "roboto-mono", monospace;
@@ -150,7 +151,7 @@ h2 {
     font-weight: 500;
     font-style: medium;
     font-size: 22px;
-    color: var var(--brown);
+    color: var(--brown);
 }
 
 /*pink background circle*/
@@ -173,7 +174,7 @@ h2 {
     font-size: 20px;
     z-index: 12;
     text-align: center;
-  }
+}
 
 #countdown p {
     position: relative;
@@ -184,25 +185,25 @@ h2 {
     bottom: 570px;
     font-size: 24px;
     z-index: 12;
-  }
+}
 
  
 /*line up section*/  
 
-   #bluerectangle {
+#bluerectangle {
     float: right;
     margin-top: -60%;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%; 
   }
-  #orangephoto {
+
+#orangephoto {
     max-width: 291px;
     z-index: 12;
     margin-top: -180%;
     float: right;
-  }
+}
 
-  .lineup_background {
+.lineup_background {
   width: 227px;
   height: 252px;
   background: var(--beige);
@@ -268,5 +269,206 @@ z-index: 20;
 }
 
 #videoid {
+  z-index: 9;
+}
+
+/*tickets*/
+
+h3{
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: semibold;
+  font-size: 20px;
+  color: var(--brown);
+}
+
+#tickets {
+  margin-top: 10%;
+  margin-left: 70%; 
+}
+
+#purple {
+  width: 40%;
+  z-index: -10;
+}
+
+.pinktickets {
+  width: 85%;
+  margin-bottom: 10%;
+  position: relative;
+  z-index: 3;
+}
+
+/*full ticket*/
+
+#fullfestival {
+  margin-left: 15%;
+  bottom: 280px;
+}
+
+.full {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 15% 35% 35% 15%;
+  grid-template-rows: 30% 30% 40%;
   z-index: 12;
+  grid-gap: 5px;
+  position: relative;
+  bottom: 420px;
+}
+
+.full h3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.full #price {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.full p {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: -20px;
+}
+
+.full button {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  margin-top: -25px;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  background-color: var(--beige);
+  color: var(--brown);
+  border: none;
+  padding: 5px 20px;
+}
+
+/*single day ticket*/
+
+#singleday {
+  bottom: 360px;
+  margin-right: 15%;
+}
+
+.day {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 15% 35% 35% 15%;
+  grid-template-rows: 30% 30% 40%;
+  z-index: 12;
+  grid-gap: 5px;
+  position: relative;
+  bottom: 510px;
+}
+
+.day p {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: -20px;
+}
+
+.day h3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.day #pricetwo {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.day button {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  margin-top: -17px;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  background-color: var(--beige);
+  color: var(--brown);
+  border: none;
+  padding: 5px 20px;
+}
+
+/*one concert ticket*/
+
+#oneconcert {
+  margin-left: 15%;
+  bottom: 430px;
+}
+
+.concert {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 15% 35% 35% 15%;
+  grid-template-rows: 30% 30% 40%;
+  z-index: 12;
+  grid-gap: 5px;
+  position: relative;
+  bottom: 570px;
+}
+
+.concert p {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-bottom: -20px;
+}
+
+.concert h3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.concert #pricethree {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.concert button {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  margin-top: -25px;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  background-color: var(--beige);
+  color: var(--brown);
+  border: none;
+  padding: 5px 20px;
 }
