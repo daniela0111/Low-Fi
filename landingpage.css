@@ -477,4 +477,68 @@ h3{
 #footerpic {
   width: 100%;
   margin-top: -170%;
+  max-width: 390px;
+  text-align: center;
+}
+
+.newsletterform {
+  z-index: 10;
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+  padding: 20px;
+  padding-left: 34px;
+  border: 5px solid;
+  margin-left: 30px;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.newslettertext {
+  z-index: 10;
+  margin-top: -400px;
+  padding-left: 20px;
+  text-align: left;
+  position: relative;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  margin-left: 48px;
+}
+
+.contactustext {
+  z-index: 10;
+  margin-top: 40px;
+  text-align: right;
+  padding-right: 80px;
+  font-family: "stratos", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.contactinformation {
+  display: flex;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+
+.newsletterform button {
+  background-color: var(--beige);
+  color: var(--brown);
+  border: 70px;
+  border-radius: 100px;
+  border-color: #2B1E09;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: "stratos", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px
+  
+  
+
 }
