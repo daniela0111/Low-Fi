@@ -473,3 +473,8 @@ h3{
   padding: 5px 20px;
 }
 
+/*footer*/
+#footerpic {
+  width: 100%;
+  margin-top: -170%;
+}
