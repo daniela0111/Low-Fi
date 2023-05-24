@@ -563,3 +563,9 @@ input {
   margin-left: 65%;
   margin-top: -8%;
 }
+
+@media screen and (min-width: 899px){
+  .burger-toggle {
+    display: none;
+  }
+}
