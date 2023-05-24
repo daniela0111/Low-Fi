@@ -25,6 +25,9 @@ body {
     color: var(--brown);
 }
 
+.icons {
+  display: none;
+}
 /*date on the left site*/
 
 #date {
@@ -60,6 +63,10 @@ h1 {
     position: relative;
     left: 0px;
     top: 0px;
+}
+
+#background_PC {
+  display: none;
 }
 
 .mainlogo {
@@ -120,7 +127,7 @@ a {
     color: var(--brown);
 }
 
-ul {
+.pcnav{
     top: 50px;
     left: 82%;
     z-index: 24;
@@ -529,8 +536,7 @@ h3{
   z-index: 10;
 }
 .list{
-  margin-top: 685%;
-  margin-left: -45%;
+ margin-left: 35%;
   position: absolute;
   text-align: right;
 }
@@ -564,8 +570,72 @@ input {
   margin-top: -8%;
 }
 
-@media screen and (min-width: 899px){
+@media screen and (min-width: 768px){
+
+/*navigation PC*/
+
   .burger-toggle {
     display: none;
+  }
+  
+  .burger-icon {
+    display: none;
+  }
+  
+  .menu {
+    display: block;
+  }
+  
+  .pcnav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-left: -40%;
+    margin-top: -15px;
+  }
+  
+  .pcnav li a {
+    text-decoration: underline;
+    color: var(--brown);
+    padding: 10px;
+  }
+  
+  .pcnav li a:hover {
+    color: var(--orange);
+  }
+
+  a {
+    font-size: 28px;
+  }
+
+  #date {
+    font-size: 30px;
+    margin-top: 5%;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon{
+    width: 64px;
+    padding: 10px;
+  }
+
+  #background {
+    display: none;
+  }
+
+  #pink{
+    display: none;
+  }
+  #background_PC {
+    z-index: -2;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
   }
 }
