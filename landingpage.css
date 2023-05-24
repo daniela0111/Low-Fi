@@ -591,14 +591,14 @@ input {
     display: flex;
     flex-direction: row;
     row-gap: 10px;
-    margin-left: -40%;
-    margin-top: -15px;
+    margin-left: -30vw;
+    margin-top: -1vw;
   }
   
   .pcnav li a {
     text-decoration: underline;
     color: var(--brown);
-    padding: 10px;
+    padding: 1vw;
   }
   
   .pcnav li a:hover {
@@ -617,11 +617,20 @@ input {
   .icons{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    margin-top: -115vw;
+    z-index: 12;
   }
 
   .icon{
     width: 64px;
     padding: 10px;
+    margin-left: 92vw;
+  }
+
+  #fb {
+   width: 50px;
+   margin-left: 93vw;
   }
 
   #background {
@@ -631,11 +640,60 @@ input {
   #pink{
     display: none;
   }
+  
   #background_PC {
-    z-index: -2;
+    z-index: 10;
+    display: inline-block;
     position: relative;
     left: 0px;
     top: 0px;
-    width: 200px;
+    width: 50%;
   }
+
+  #lowfi {
+    margin-top: 8vw;
+    width: 30vw;
+    z-index: 12;
+    margin-left: -28vw;
+  }
+
+  h1 {
+    margin-top: 9vw;
+    z-index: 12;
+    font-size: 16vw;
+    margin-left: -24vw;
+  }
+
+  .intro {
+    display: grid;
+    place-items: center;
+    margin-left: 30vw;
+    margin-right: 70px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  .intro p {
+    margin-top: 25vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  h2 {
+    font-family: "stratos", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 57px;
+    color: var(--brown);
+  }
+
+  #countdown {
+    font-size: 5vW;
+    margin-top: -25%;
+    margin-left: 8%;
+    margin-right: 50%;
+  }
+
 }
