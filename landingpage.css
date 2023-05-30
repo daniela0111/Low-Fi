@@ -197,11 +197,16 @@ h2 {
  
 /*line up section*/  
 
-#bluerectangle {
+.bluerectangle {
     float: right;
     margin-top: -60%;
     margin-bottom: 5%; 
+    display: block;
   }
+
+.bluerectanglePC {
+  display: none;
+}
 
 #orangephoto {
     max-width: 291px;
@@ -262,6 +267,8 @@ z-index: 20;
 #about {
   margin-left: 63px;
 } 
+
+/*video section*/
 
 .videosection {
   display: flex ;
@@ -647,21 +654,21 @@ input {
     position: relative;
     left: 0px;
     top: 0px;
-    width: 50%;
+    width: 45%;
   }
 
   #lowfi {
     margin-top: 8vw;
-    width: 30vw;
+    width: 25vw;
     z-index: 12;
-    margin-left: -28vw;
+    margin-left: -33.5vw;
   }
 
   h1 {
     margin-top: 9vw;
     z-index: 12;
-    font-size: 16vw;
-    margin-left: -24vw;
+    font-size: 12vw;
+    margin-left: -29vw;
   }
 
   .intro {
@@ -676,9 +683,9 @@ input {
   }
 
   .intro p {
-    margin-top: 25vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-top: 20vw;
+    margin-left: 15vw;
+    margin-right: 30vw;
   }
 
   h2 {
@@ -690,10 +697,68 @@ input {
   }
 
   #countdown {
-    font-size: 5vW;
-    margin-top: -25%;
-    margin-left: 8%;
+    font-size: 4vW;
+    margin-top: -10%;
+    margin-left: 7%;
     margin-right: 50%;
   }
 
+  #orangephoto {
+    float:right;
+    max-width:70vw;
+    margin-top: -130vw;
+    object-position: 20vw;
+  }
+
+
+  .bluerectangle {
+    display: none;
+  }
+
+  .bluerectanglePC {
+    float: right;
+    width: 70vw;
+    object-position:20vw;
+    margin-top: -20vw ;
+    display: block;
+  }
+
+  #line_up {
+    margin-left: 12vw ;
+  }
+
+  .lineup_background {
+    width:37vw ;
+    height: 42vw;
+    margin-left: 55vw;
+    margin-top: 20vw;
+  }
+
+  .lineup_text {
+    font-size: 2.5vw;
+    padding: 3vw;
+  }
+
+  .lineupbutton {
+    width: 20vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    margin-top:3vw ;
+    margin-left: 8vw;
+  }
+
+  #about {
+    padding-top: 32vw;
+    padding-left: 5vw;
+    padding-bottom: 0vw;
+  }
+
+  .abouttext {
+    font-size: 22px;
+    padding-left: 10vw;
+    padding-right: 0vw;
+  }
+  
+  
 }
+  
