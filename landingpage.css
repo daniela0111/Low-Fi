@@ -998,5 +998,9 @@ input {
   }
 
   /*footer*/
+
+  .footerpicpc {
+    display: none;
+  }
 }
   
