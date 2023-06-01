@@ -1,3 +1,5 @@
+//countdown in JavaScript is code based on tutorial from W3school tuorial here: https://www.w3schools.com/howto/howto_js_countdown.asp//
+
 const targetDate = new Date("2023-08-25T18:00:00").getTime();
 
 function updateCountdown() {

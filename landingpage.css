@@ -592,9 +592,9 @@ input {
   display: none;
 }
 
-@media screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
-/*navigation PC*/
+  /*navigation PC*/
 
   .burger-toggle {
     display: none;
@@ -828,7 +828,7 @@ input {
   /*full day ticket*/
 
   .ff {
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: -60vw;
   }
 
@@ -945,7 +945,7 @@ input {
   /*one concert ticket*/
 
   .oc {
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: -30vw;
   }
 
@@ -1006,13 +1006,14 @@ input {
   .footerpicpc {
     display: block;
     max-width: 100%;
-    margin-top: 10vw;
+    margin-top: -35vw;
+    z-index: -3;
   }
   #footerpic {
     display: none;
   }
   #newslettersection {
-    margin-left: 540px;
+    margin-left: 40vw;
     margin-top: -37%;
   }
 
@@ -1036,38 +1037,24 @@ input {
   }
   
   #contact {
-    margin-top: -100%;
-    margin-right: 700%;
-    padding-right: 500%;
-    
+    margin-right: 30vw;
+    padding-right: -10vw;
+    margin-top: 2vw;
+  }
+
+  #tel {
+  margin-left: 15vw;
+  }
+  .sn {
+  position: absolute;
+  margin-top: -30vw;
+  margin-left: -50vw;
   }
 
  .fr {
-  margin-left: 1000%;
+  margin-left: 10vw;
   margin-top: 60%;
   width: 100%;
   padding-left: 50%;
-  
- }
-
- .sn {
-  float: left;
-  display: block;
-  padding-left: 600%;
-  text-align: left;
-
- }
-
- #contactinformation {
-  padding-left: 1000%;
-  margin-bottom: 50%;
-  margin-top: 400%;
-  margin-left: 300%;
-  display: block;
-  text-align: center;
-  padding-top: 40
-
- }
-
-  
+  }
 }
