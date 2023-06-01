@@ -155,8 +155,7 @@ a {
 
 h2 {
     font-family: "stratos", sans-serif;
-    font-weight: 500;
-    font-style: medium;
+    font-weight: medium;
     font-size: 22px;
     color: var(--brown);
 }
@@ -298,7 +297,6 @@ z-index: 20;
 h3{
   font-family: "stratos", sans-serif;
   font-weight: 500;
-  font-style: semibold;
   font-size: 20px;
   color: var(--brown);
 }
@@ -706,7 +704,7 @@ input {
   h2 {
     font-family: "stratos", sans-serif;
     font-weight: 500;
-    font-style: medium;
+    font-weight: bold;
     font-size: 57px;
     color: var(--brown);
   }
@@ -820,7 +818,6 @@ input {
   h3{
     font-family: "stratos", sans-serif;
     font-weight: 500;
-    font-style: semibold;
     font-size: 40px;
     color: var(--brown);
   }
