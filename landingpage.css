@@ -155,7 +155,7 @@ a {
 
 h2 {
     font-family: "stratos", sans-serif;
-    font-weight: medium;
+    font-style: medium;
     font-size: 22px;
     color: var(--brown);
 }
@@ -1035,7 +1035,6 @@ input {
   
   #contact {
     margin-right: 30vw;
-    padding-right: -10vw;
     margin-top: 2vw;
   }
 
