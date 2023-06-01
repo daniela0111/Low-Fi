@@ -588,6 +588,10 @@ input {
   margin-top: -8%;
 }
 
+.footerpicpc {
+  display: none;
+}
+
 @media screen and (min-width: 768px){
 
 /*navigation PC*/
@@ -1000,7 +1004,71 @@ input {
   /*footer*/
 
   .footerpicpc {
+    display: block;
+    max-width: 100%;
+    margin-top: 10vw;
+  }
+  #footerpic {
     display: none;
   }
+  #newslettersection {
+    margin-left: 540px;
+    margin-top: -37%;
+
+  .newslettertext {
+    font-size: 30px;
+    margin-left: -2%;
+  }
+
+  .t {
+    width: 330px;
+    height: 30px;
+    border: 1px solid;
+    font-size: 25px;
+    margin-left: -26%;
+  }
+
+  .newsletterform button {
+    border: 1px solid;
+    font-size: 25px;
+    margin-left: 15%;
+  }
+  
+  #contact {
+    margin-top: -100%;
+    margin-right: 700%;
+    padding-right: 500%;
+    
+  }
+
+ .fr {
+  margin-left: 1000%;
+  margin-top: 60%;
+  width: 100%;
+  padding-left: 50%;
+  
+ }
+
+ .sn {
+  float: left;
+  display: block;
+  padding-left: 600%;
+  text-align: left;
+
+ }
+
+ #contactinformation {
+  padding-left: 1000%;
+  margin-bottom: 50%;
+  margin-top: 400%;
+  margin-left: 300%;
+  display: block;
+  text-align: center;
+  padding-top: 400%;
+  padding-right: 600px;
+
+ }
+
+  
 }
   
